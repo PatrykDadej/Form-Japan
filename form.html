@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class = "main">
+             <div class="left">
+                 <p class= "japanText"> JAPAN </p>
+                <img class = "street" src = "https://images.pexels.com/photos/315191/pexels-photo-315191.jpeg?cs=srgb&dl=pexels-pixabay-315191.jpg&fm=jpg&_gl=1*eibiyh*_ga*MTY3MjQ0NDkyMC4xNjY4NzYxNTA4*_ga_8JE65Q40S6*MTY2ODc2MTUwOC4xLjEuMTY2ODc2MTU2OC4wLjAuMA.">
+
+            </div>
+            <div class="right">
+                <div class = "top">
+                    <p>
+                    <span class="firstLine">Have you ever dreamt of Japanese adventure?</span> <br><br>
+                    Why not to save yourself all the stress and trust our experts in organising trips to Japan  <br><br>Sign up now to get started.<br>
+                    </p>
+                </div>
+                <div class="middle">
+                    <form action="post">
+                        <div class="input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" minlength ="2" required placeholder = "eg. John">
+                        </div>
+                        <div class="input">
+                            <label for="second_name">Second Name</label>
+                            <input type="text" id="second_name" minlength ="2" required placeholder = "eg. Smith">
+                        </div>
+                        <div class="input">
+                            <label for="mail">Email Adress</label>
+                            <input type="email" id="mail" required placeholder = "example@mail.co.uk">
+                        </div>
+                        <div class="input">
+                            <label for="phone">Telephone Number</label>
+                            <input type="tel" id="phone" required placeholder="xxxxxxxxxxx" pattern ="(\d{11})">
+                        </div>
+                        <div class="input">
+                            <label for="first_password">Password</label>
+                            <input type="password" id = "first_password" required minlength ="8">
+                        </div>
+                        <div class="input">
+                            <label for="second_password">Confirm Password</label>
+                            <input type="password" id = "second_password" required>
+                        </div>
+                        <button type = "submit"> Sign up</button>
+                    </form>        
+                </div>
+            </div>      
+        </div>
+    </body>
+</html>
